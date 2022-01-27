@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+div{
+    color: rgb(20, 5, 59);
+    padding: 20px;
+    border: 2px solid rebeccapurple;
+    height: 20vh;
+    width: 30vw;
+    margin: 5px;
+    overflow:scroll;
+    background-color: chartreuse;
+}

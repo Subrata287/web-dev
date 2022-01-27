@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(245, 168, 60);
+}
+.box-set{
+    background-color: rgb(48, 243, 110);
+}
+.box{
+    background: rgb(31, 161, 72);
+    text-align: center;
+    position: sticky;
+}
+.header{
+    top: 0px;
+    z-index: 4;
+    padding: 21px;
+    font-size: 2em;
+    border: 1px solid red;
+    background-image: url(/Challenge/ch4/position/Header.png);
+}
+.box-2{
+    top: 0px;
+    z-index: 5;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin: 0;
+}
+.body{
+    z-index: 3;
+    width: 95%;
+    padding: 20px;
+    overflow: auto;
+    text-align: justify;
+    
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+}
+li{
+    float: left;
+    padding: 20px 10px;
+}
+.log{
+    float: right;
+}
+li:hover{
+    background-color: rgb(200, 195, 195);
+    color: black;
+    cursor: pointer;
+}
+footer{
+    padding: 30px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}

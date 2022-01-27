@@ -1,0 +1,35 @@
+.box-set,.box{
+    border-radius: 25px;
+}
+.box-set{
+    background: rgb(177, 112, 112);
+}
+.box{
+    background: chartreuse;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    margin: 10px;
+    position: sticky;
+}
+.box-1{
+    top: 10px;
+    z-index: 10;
+}
+.box-2{
+    top: 10px;
+    z-index: 9;
+}
+.box-3{
+    top: 10px;
+    z-index: 8;
+}
+.box-4{
+    top: 10px;
+    z-index: 7;
+}
+.bb{
+    z-index: 11;
+    width: 100%;
+    margin: 0 auto;
+}

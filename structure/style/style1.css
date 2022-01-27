@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    float: left;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+nav a:hover{
+    color: aqua;
+}
+#log{
+    background-color: rgb(255, 38, 0);
+    float: right;
+}
+#log:hover{
+    color: black;
+}

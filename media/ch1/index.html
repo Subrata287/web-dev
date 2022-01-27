@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        width: 100%;
+        background-color: aqua;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        color: rgb(238, 233, 94);
+        text-shadow: 5px 1px rgb(0, 0, 0);
+        -webkit-text-stroke: 2px rgb(63, 1, 170);
+        font-size: 3em;
+      }
+      section {
+        overflow: hidden;
+        background-color: rgb(176, 209, 28);
+        border: solid rgb(60, 97, 5);
+      }
+      .box {
+        float: left;
+        background-color: rgb(219, 231, 163);
+      }
+    @media screen and (max-width: 400px){
+        .box{
+            width: 100%;
+            background-color: yellow;
+            font-size: 40px;
+            padding: 20px;
+            border: 1px solid red;
+        }
+    }
+    @media screen and (min-width: 401px) and (max-width: 1000px){
+        .box{
+            width: 50%;
+            background-color: rgb(0, 172, 83);
+            font-size: 40px;
+            padding: 20px;
+            border: 1px solid rgb(39, 0, 80);
+        }
+    }
+    @media screen and (min-width: 1000px){
+        .box{
+            width: 25%;
+            background-color: rgb(26, 26, 184);
+            font-size: 40px;
+            padding: 20px;
+            border: 1px solid rgb(0, 0, 0);
+        }
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>I Compleate My Challanges</h1>
+    </header>
+    <section>
+      <div class="box">
+        Box 1
+      </div>
+      <div class="box">
+        Box 2
+      </div>
+      <div class="box">
+        Box 3
+      </div>
+      <div class="box">
+        Box 4
+      </div>
+      <div class="box">
+        Box 5
+      </div>
+      <div class="box">
+        Box 6
+      </div>
+      <div class="box">
+        Box 7
+      </div>
+      <div class="box">
+        Box 8
+      </div>
+    </section>
+  </body>
+</html>

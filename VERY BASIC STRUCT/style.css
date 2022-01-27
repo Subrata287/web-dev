@@ -1,0 +1,59 @@
+    * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: aqua;
+        position: fixed;
+      }
+      header {
+        width: 100vw;
+        background-color: rgb(75, 3, 3);
+        color: aliceblue;
+        font: 2em sans-serif;
+        text-align: center;
+        overflow: hidden;
+        padding: 20px 0px 20px 0px;
+      }
+      .left {
+        background-color: blueviolet;
+        width: 20%;
+        height: 80vh;
+        float: left;
+        overflow: hidden;
+        position: relative;
+      }
+      .right {
+        background-color: rgb(43, 226, 125);
+        width: 20%;
+        height: 80vh;
+        float: right;
+        overflow: hidden;
+        position: relative;
+        display: table;
+      }
+      /* section:after {
+        content: "";
+        display: table;
+        clear: both;
+      } */
+      footer {
+        background-color: brown;
+        width: 100vw;
+        padding: 15px 0 15px 0;
+        text-align: center;
+        color: whitesmoke;
+      }
+      .body{
+          background-color: cadetblue;
+          height: 80vh;
+          overflow: auto;
+          scroll-snap-destination: 10%;
+      }
+      .con{
+          padding: 10%;
+      }
+      p{
+          padding-left: 10px;
+          padding-top: 20px;
+      }

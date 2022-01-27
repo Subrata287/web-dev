@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210204/pngtree-abstract-background-technology-of-data-applications-image_555017.jpg");
+    background-attachment: fixed;
+}
+section{
+    margin:10px 160px;
+    background-color: bisque;
+}
+.from_header{
+    height: 30%;
+    background-color: rgb(4, 59, 59);
+    color: white;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgb(255, 14, 147), 0 6px 20px 0 rgba(1, 148, 75, 0.965);
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+    font-size: 3em;
+}
+h3{
+    font-size: 1em;
+    padding-left: 5%;
+}
+.from_body{
+    padding: 20px 30px;
+}
+input[type="text"],input[type="email"]{
+    padding: 12px;
+    width: 90%;
+    margin: 10px;
+}
+input,select,textarea{
+    border: 2px solid rgb(82, 70, 4);
+    border-radius: 9px;
+    margin: 10px;
+}
+textarea{
+    padding: 10px;
+}
+select{
+    padding: 12px;
+    width: 80%;
+}
+input[type="submit"]{
+    background-color: aqua;
+    padding: 20px 30px;
+    width: 30%;
+    margin-left: 35%;
+    font-size: 2em;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: rgb(7, 82, 82);
+    color: aliceblue;
+    text-shadow: 2px 2px 5px red;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(78, 7, 192), 0 6px 20px 0 rgba(255, 3, 3, 0.965);
+}
+fieldset{
+    padding: 12px;
+}
+.contaner,section{
+    box-shadow: 0 4px 8px 0 rgb(78, 7, 192), 0 6px 20px 0 rgba(255, 3, 3, 0.965);
+    border-radius: 10px;
+    overflow: hidden;
+}

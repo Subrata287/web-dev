@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: antiquewhite;
+    height: 60vh;
+    width: 100vw;
+}
+footer,#foot{
+    background-color: blue;
+    height: 40vh;
+    width: 100vw;
+    color: aliceblue;
+    text-align: center;
+}
+.main{
+    background-color: white;
+    height: 50vh;
+    width: 40vw;
+    margin: 40vh;
+}
+header{
+    overflow: hidden;
+}
+#mainfoot{
+    padding: 20px;
+}

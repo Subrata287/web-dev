@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 14px Georgia, serif;
+    background: #ccc;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section{
+    display: block;
+}
+
+h2{
+    font: 24px georgia;
+    margin: 0 0 10px 0;
+}
+h3{
+    margin: 0 0 8px 0;
+}
+p{
+    margin: 0 0 20px 0;
+}
+
+#flud-wrap{
+    width: 70%;
+    margin: 10% auto;
+    padding: 20px;
+    background: #eee;
+    overflow: hidden;
+}
+#side_bar{
+    width: 35%;
+    float: left;
+}
+#side_bar ul{
+    list-style: none;
+}
+#side_bar ul li a{
+    color: #900;
+    text-decoration: none;
+    padding: 3px 0;
+    display: block;
+}
+#main_content{
+    width: 65%;
+    float: right;
+}
