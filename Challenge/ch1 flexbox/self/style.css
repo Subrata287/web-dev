@@ -1,0 +1,36 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.one{
+    display: flex;
+    background-color: rgb(214, 152, 70);
+}
+.one div{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+div .lis{
+    display: flex;
+    padding: 0;
+}
+.lis div{
+    background-color: blue;
+    color: whitesmoke;
+    flex-grow: 1;
+}
+.one #to{
+    display: flex;
+    padding: 0;
+}
+#to div{
+    background-color: blueviolet;
+    color: aliceblue;
+    flex-grow: 1;
+}

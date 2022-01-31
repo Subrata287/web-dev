@@ -1,0 +1,17 @@
+.main-box{
+    display: flex;
+}
+.main-box div{
+    background-color: rgb(67, 223, 223);
+    color: brown;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+div .ls{
+    display: flex;
+    padding: 0;
+}
+.ls div{
+    background-color: chartreuse;
+}
